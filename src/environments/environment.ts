@@ -7,6 +7,14 @@ export const environment = {
   region: 'us-east-1',
   userPoolId: 'us-east-1_PWKnMxXon',
   userPoolWebClientId: '5pohlohjqq4k6k3ln5da8qtrvu',
+   oauth: {
+      domain: "https://pessms.auth.us-east-1.amazoncognito.com",
+      scope: ["openid", "phone"],
+      redirectSignIn: "https://main.d3d81k62ulaf6t.amplifyapp.com/sign-in",
+      
+      responseType: "code"
+    }
+  }
 };
 
 /*
