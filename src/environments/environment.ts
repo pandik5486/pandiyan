@@ -11,7 +11,7 @@ export const environment = {
       domain: "https://pessms.auth.us-east-1.amazoncognito.com",
       scope: ["openid", "phone"],
       redirectSignIn: "https://main.d3d81k62ulaf6t.amplifyapp.com/sign-in",
-      
+      redirectSignOut: "http://localhost:8080",
       responseType: "code"
     }
   }
