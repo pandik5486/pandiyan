@@ -22,6 +22,12 @@ export class AuthService {
   public async signIn(sms: string) {
     this.cognitoUser = await Auth.signIn(sms);
   }
+  
+  
+  public async emailsignIn(email: string, password: string) {
+	  
+    this.cognitoUser = await Auth.signIn(email,password);
+  }
 
   public async signOut() {
     await Auth.signOut();

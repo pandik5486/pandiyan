@@ -11,6 +11,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { SignInComponent } from './sign-in/sign-in.component';
+import { EmailSignInComponent } from './sign-in/email-sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { PrivateComponent } from './private/private.component';
 import { AnswerChallengeComponent } from './answer-challenge/answer-challenge.component';
@@ -38,6 +39,7 @@ const MAT_MODULES = [
   declarations: [
     AppComponent,
     SignInComponent,
+	EmailSignInComponent,
     SignUpComponent,
     PrivateComponent,
     AnswerChallengeComponent,
